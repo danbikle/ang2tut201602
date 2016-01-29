@@ -51,5 +51,22 @@ rm -rf node
 tar zxf node-v5.5.0-linux-x64.tar.gz
 mv      node-v5.5.0-linux-x64 node
 
+So, I did that on my laptop.
 
+Then I did this:
 
+cd ~ann
+git clone ang2tut201602
+cd        ang2tut201602
+npm install
+node_modules/lite-server/bin/lite-server
+
+The console indicated that lite-server was serving at two URLs:
+
+http://localhost:3000
+
+http://localhost:3001
+
+The first URL corresponded to my Angular2 app.
+
+The second URL corresponded to an admin-UI for lite-server.
