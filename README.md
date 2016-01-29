@@ -41,5 +41,15 @@ sudo passwd ann
 The first command creates ann.
 The second command gives her a password.
 
+After I create ann and then login, I download nodeJS.
+
+wget https://nodejs.org/dist/v5.5.0/node-v5.5.0-linux-x64.tar.gz
+
+Then I install it.
+
+rm -rf node
+tar zxf node-v5.5.0-linux-x64.tar.gz
+mv      node-v5.5.0-linux-x64 node
+
 
 
