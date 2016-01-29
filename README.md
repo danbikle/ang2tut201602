@@ -122,3 +122,22 @@ app/app.component.js.map
 app/boot.js
 app/boot.js.map
 
+The way I got started with Angular2 development is to memorize a set of words which I see in the tutorial.
+
+This is a boring way to learn development but I need to know how to describe the internals of my Angular2 apps when I work with other people.
+
+This is similar to learning a foreign language like French, I need to start by memorizing some words.
+
+For Angualar2 the words I need to memorize are listed below in alphabetical order:
+
+@sign
+app
+class
+component
+decorator
+export
+file
+import
+module
+promise
+view
