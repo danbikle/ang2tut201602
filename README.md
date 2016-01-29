@@ -60,7 +60,7 @@ cd ~ann
 git clone ang2tut201602
 cd        ang2tut201602
 npm install
-node_modules/lite-server/bin/lite-server
+npm start
 
 The console indicated that lite-server was serving at two URLs:
 
