@@ -130,7 +130,7 @@ This is similar to learning a foreign language like French.
 
 I need to start by memorizing some words.
 
-For Angualar2 the words I need to memorize are listed below in alphabetical order:
+For Angualar2, the words I need to memorize are listed below in alphabetical order:
 
 @sign
 Apache Cordova
