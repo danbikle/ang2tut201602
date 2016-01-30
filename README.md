@@ -78,7 +78,7 @@ Then I did this:
 ```bash
 cd ~ann
 git clone https://github.com/danbikle/ang2tut201602
-cd        ang2tut201602
+cd  ang2tut201602
 npm install
 npm start
 ```
@@ -264,7 +264,7 @@ So, I just demostrated how I route-memorize the idea behind the Angular2 at-sign
 
 In the list above I see 77 words I want to memorize.
 
-It would take me a long time to memorize them using my question-sentence-snippet technique.
+It would take me a long time to memorize them using my Question-Sentence-Snippet technique.
 
 But those memorized ideas should become useful as I start writing more Angular2 code.
 
