@@ -228,34 +228,23 @@ For example the first word is:
 
 at-sign
 
-I thought up some questions related to at-sign:
+I thought up four questions related to at-sign:
 
-Can I ignore at-sign or should I know about it?
-
-Where in the tutorial is at-sign?
-
-What should I call the at-sign?
-
-Why should I use the at-sign?
+* Can I ignore at-sign or should I know about it?
+* Where in the tutorial is at-sign?
+* What should I call the at-sign?
+* Why should I use the at-sign?
 
 Next, I thought up some sentences related to at-sign:
-
-I see the at-sign in the tutorial when they describe how to write app.component.ts.
-
-The at-sign looks important; I should know about it.
-
-I should remember the at-sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
-
-This syntax is discussed at this URL:
-https://angular.io/docs/ts/latest/quickstart.html#component-metadata
-
-I use the at-sign to help me tell Angular that a class is an 'Angular Component'.
-
-The at-sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
-
-Once I do that, I can call ```@Component()``` with some metadata as a parameter to create an 'Angular Component'.
-
-This metadata is a simple JS-object which contains a CSS-selector and a thing called a template which I see as some HTML-syntax.
+* I see the at-sign in the tutorial when they describe how to write app.component.ts.
+* The at-sign looks important; I should know about it.
+* I should remember the at-sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
+* This syntax is discussed at this URL:
+* https://angular.io/docs/ts/latest/quickstart.html#component-metadata
+* I use the at-sign to help me tell Angular that a class is an 'Angular Component'.
+* The at-sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
+* Once I do that, I can call ```@Component()``` with some metadata as a parameter to create an 'Angular Component'.
+* This metadata is a simple JS-object which contains a CSS-selector and a thing called a template which I see as some HTML-syntax.
 
 Here is a code snippet related to the at-sign:
 ```javascript
@@ -266,11 +255,15 @@ import {Component} from 'angular2/core';
 })
 ```
 
-So, I just demostrated how I route-memorize the idea behind the Angular2 at-sign.
+So, I just demostrated how I route-memorize the idea behind the Angular2 at-sign:
+
+* 4 Questions
+* Some sentences
+* A  code snippet
 
 In the list above I see 77 words I want to memorize.
 
-It would take me a long time to memorize them using my
-question-sentence-snippet technique, but those memorized ideas should
-become useful as I start writing more Angular2 code.
+It would take me a long time to memorize them using my question-sentence-snippet technique.
+
+But those memorized ideas should become useful as I start writing more Angular2 code.
 
