@@ -77,7 +77,7 @@ So, I did that on my laptop.
 Then I did this:
 ```bash
 cd ~ann
-git clone ang2tut201602
+git clone https://github.com/danbikle/ang2tut201602
 cd        ang2tut201602
 npm install
 npm start
