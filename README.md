@@ -253,7 +253,7 @@ I use the at-sign to help me tell Angular that a class is an 'Angular Component'
 
 The at-sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
 
-Once I do that, I can call @Component() with some metadata as a parameter to create an 'Angular Component'.
+Once I do that, I can call ```@Component()``` with some metadata as a parameter to create an 'Angular Component'.
 
 This metadata is a simple JS-object which contains a CSS-selector and a thing called a template which I see as some HTML-syntax.
 
