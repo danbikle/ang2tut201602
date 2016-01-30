@@ -236,6 +236,7 @@ I thought up four questions related to at-sign:
 * Why should I use the at-sign?
 
 Next, I thought up some sentences related to at-sign:
+
 * I see the at-sign in the tutorial when they describe how to write app.component.ts.
 * The at-sign looks important; I should know about it.
 * I should remember the at-sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
