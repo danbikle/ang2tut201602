@@ -1,1 +1,1 @@
-web: node node_modules/lite-server/lib/lite-server.js -p $PORT
+web: node node_modules/http-server/bin/http-server -p $PORT
