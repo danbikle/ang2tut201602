@@ -35,32 +35,53 @@ Then, Ubuntu will create an account named ann which has useful privileges.
 If you use a different initial account, you should create an account named ann after you boot the laptop.
 
 The shell commands to create the ann account are listed below:
-
+```
 sudo useradd -m -s /bin/bash ann
 sudo passwd ann
+```
 
 The first command creates ann.
 The second command gives her a password.
 
-After I create ann and then login, I download Node.js.
+After I create the ann account, I enhance and update Ubuntu.
+
+The shell commands to do this are listed below:
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev \
+libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3       \
+libgdbm-dev libsqlite3-dev gitk postgresql postgresql-server-dev-all  \
+libpq-dev emacs wget curl chromium-browser openssh-server aptitude    \
+ruby ruby-dev sqlite3
+
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+After that I login as ann and I download Node.js.
 
 wget https://nodejs.org/dist/v5.5.0/node-v5.5.0-linux-x64.tar.gz
 
-Then I install it.
-
+Then I install it:
+```
 rm -rf  node
 tar zxf node-v5.5.0-linux-x64.tar.gz
 mv      node-v5.5.0-linux-x64 node
+```
 
 So, I did that on my laptop.
 
 Then I did this:
-
+```
 cd ~ann
 git clone ang2tut201602
 cd        ang2tut201602
 npm install
 npm start
+```
 
 The console indicated that lite-server was serving at two URLs:
 
@@ -73,7 +94,7 @@ The first URL corresponded to my Angular2 app.
 The second URL corresponded to an admin-UI for lite-server.
 
 I saw this:
-
+```
 ann@nia111:~/ang2tut201602 $ 
 ann@nia111:~/ang2tut201602 $ npm start
 
@@ -111,16 +132,17 @@ ann@nia111:~/ang2tut201602 $ npm start
 [1] 16.01.29 11:35:51 304 GET /node_modules/rxjs/bundles/Rx.js (Unknown - 18ms)
 [1] 16.01.29 11:35:52 200 GET /app/boot.js (Unknown - 89ms)
 [1] 16.01.29 11:35:53 200 GET /app/app.component.js (Unknown - 330ms)
-
+```
 
 Also it brought up a browser and displayed the h1-element I had typed into app/app.component.ts.
 
 And I noticed that it created some new files in my git repo:
-
+```
 app/app.component.js
 app/app.component.js.map
 app/boot.js
 app/boot.js.map
+```
 
 The way I got started with Angular2 development is to memorize a set of words which I see in the tutorial.
 
@@ -193,3 +215,62 @@ typescript compiler
 view
 view template
 webpack
+
+My memorization strategy is simple.
+
+First I form questions from the word.
+
+Next, I will try building sentences from the word.
+
+Then, I build some code snippets which are related to the word.
+
+For example the first word is:
+
+@sign
+
+I thought up some questions related to @sign:
+
+Can I ignore @sign or should I know about it?
+
+Where in the tutorial is @sign?
+
+What should I call the @sign?
+
+Why should I use the @sign?
+
+Next, I thought up some sentences related to @sign:
+
+I see the @sign in the tutorial when they describe how to write app.component.ts.
+
+The @sign looks important; I should know about it.
+
+I should remember the @sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
+
+This syntax is discussed at this URL:
+https://angular.io/docs/ts/latest/quickstart.html#component-metadata
+
+I use the @sign to help me tell Angular that a class is an 'Angular Component'.
+
+The @sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
+
+Once I do that, I can call @Component() with some metadata as a parameter to create an 'Angular Component'.
+
+This metadata is a simple JS-object which contains a CSS-selector and a thing called a template which I see as some HTML-syntax.
+
+Here is a code snippet related to the @sign:
+```
+import {Component} from 'angular2/core';
+@Component({
+    selector: 'my-app',
+    template: '<h1>My First Angular 2 App</h1>'
+})
+```
+
+So, I just demostrated how I route-memorize the idea behind the Angular2 @sign.
+
+In the list above I see 77 words I want to memorize.
+
+It would take me a long time to memorize them using my
+question-sentence-snippet technique, but those memorized ideas should
+become useful as I start writing more Angular2 code.
+
