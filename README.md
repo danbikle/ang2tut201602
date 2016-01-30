@@ -266,7 +266,7 @@ import {Component} from 'angular2/core';
 })
 ```
 
-So, I just demostrated how I route-memorize the idea behind the Angular2 @sign.
+So, I just demostrated how I route-memorize the idea behind the Angular2 \@sign.
 
 In the list above I see 77 words I want to memorize.
 
