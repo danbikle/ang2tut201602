@@ -154,67 +154,67 @@ I need to start by memorizing some words.
 
 For Angualar2, the words I need to memorize are listed below in alphabetical order:
 
-at-sign
-Apache Cordova
-CSS selector
-ES5
-ES6
-NativeScript
-RxJS 
-System
-System.config
-System.import
-SystemJS
-angular2/core
-angular2/platform/browser
-app
-boot.ts
-bootstrap
-class
-companion template
-component
-component metadata
-concurrent
-configuration object
-decorator
-dependencies
-devDependencies
-export
-file
-import
-index.html
-internet explorer polyfills
-lite-server
-module
-my-app
-noImplicitAny
-node_modules
-npm
-npm install
-npm package
-npm package manager 
-package.json
-platform-specific
-plunker
-pre-compilation
-project folder
-promise
-reactive extensions
-root component
-routing
-scripts section
-selector
-Separation of concerns
-system.src.js
-template
-template property
-transpile
-tsconfig.json
-typescript
-typescript compiler
-view
-view template
-webpack
+* at-sign
+* Apache Cordova
+* CSS selector
+* ES5
+* ES6
+* NativeScript
+* RxJS 
+* System
+* System.config
+* System.import
+* SystemJS
+* angular2/core
+* angular2/platform/browser
+* app
+* boot.ts
+* bootstrap
+* class
+* companion template
+* component
+* component metadata
+* concurrent
+* configuration object
+* decorator
+* dependencies
+* devDependencies
+* export
+* file
+* import
+* index.html
+* internet explorer polyfills
+* lite-server
+* module
+* my-app
+* noImplicitAny
+* node_modules
+* npm
+* npm install
+* npm package
+* npm package manager 
+* package.json
+* platform-specific
+* plunker
+* pre-compilation
+* project folder
+* promise
+* reactive extensions
+* root component
+* routing
+* scripts section
+* selector
+* Separation of concerns
+* system.src.js
+* template
+* template property
+* transpile
+* tsconfig.json
+* typescript
+* typescript compiler
+* view
+* view template
+* webpack
 
 My memorization strategy is simple.
 
