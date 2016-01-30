@@ -126,18 +126,70 @@ The way I got started with Angular2 development is to memorize a set of words wh
 
 This is a boring way to learn development but I need to know how to describe the internals of my Angular2 apps when I work with other people.
 
-This is similar to learning a foreign language like French, I need to start by memorizing some words.
+This is similar to learning a foreign language like French.
+
+I need to start by memorizing some words.
 
 For Angualar2 the words I need to memorize are listed below in alphabetical order:
 
 @sign
+Apache Cordova
+CSS selector
+ES5
+ES6
+NativeScript
+RxJS 
+System
+System.config
+System.import
+SystemJS
+angular2/core
+angular2/platform/browser
 app
+boot.ts
+bootstrap
 class
+companion template
 component
+component metadata
+concurrent
+configuration object
 decorator
+dependencies
+devDependencies
 export
 file
 import
+index.html
+internet explorer polyfills
+lite-server
 module
+my-app
+noImplicitAny
+node_modules
+npm
+npm install
+npm package
+npm package manager 
+package.json
+platform-specific
+plunker
+pre-compilation
+project folder
 promise
+reactive extensions
+root component
+routing
+scripts section
+selector
+Separation of concerns
+system.src.js
+template
+template property
+transpile
+tsconfig.json
+typescript
+typescript compiler
 view
+view template
+webpack
