@@ -35,7 +35,7 @@ Then, Ubuntu will create an account named ann which has useful privileges.
 If you use a different initial account, you should create an account named ann after you boot the laptop.
 
 The shell commands to create the ann account are listed below:
-```
+```bash
 sudo useradd -m -s /bin/bash ann
 sudo passwd ann
 ```
@@ -47,7 +47,7 @@ After I create the ann account, I enhance and update Ubuntu.
 
 The shell commands to do this are listed below:
 
-```
+```bash
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -66,7 +66,7 @@ After that I login as ann and I download Node.js.
 wget https://nodejs.org/dist/v5.5.0/node-v5.5.0-linux-x64.tar.gz
 
 Then I install it:
-```
+```bash
 rm -rf  node
 tar zxf node-v5.5.0-linux-x64.tar.gz
 mv      node-v5.5.0-linux-x64 node
@@ -75,7 +75,7 @@ mv      node-v5.5.0-linux-x64 node
 So, I did that on my laptop.
 
 Then I did this:
-```
+```bash
 cd ~ann
 git clone ang2tut201602
 cd        ang2tut201602
@@ -94,7 +94,7 @@ The first URL corresponded to my Angular2 app.
 The second URL corresponded to an admin-UI for lite-server.
 
 I saw this:
-```
+```bash
 ann@nia111:~/ang2tut201602 $ 
 ann@nia111:~/ang2tut201602 $ npm start
 
@@ -137,7 +137,7 @@ ann@nia111:~/ang2tut201602 $ npm start
 Also it brought up a browser and displayed the h1-element I had typed into app/app.component.ts.
 
 And I noticed that it created some new files in my git repo:
-```
+```bash
 app/app.component.js
 app/app.component.js.map
 app/boot.js
@@ -154,7 +154,7 @@ I need to start by memorizing some words.
 
 For Angualar2, the words I need to memorize are listed below in alphabetical order:
 
-@sign
+at-sign
 Apache Cordova
 CSS selector
 ES5
@@ -226,39 +226,39 @@ Then, I build some code snippets which are related to the word.
 
 For example the first word is:
 
-@sign
+at-sign
 
-I thought up some questions related to @sign:
+I thought up some questions related to at-sign:
 
-Can I ignore @sign or should I know about it?
+Can I ignore at-sign or should I know about it?
 
-Where in the tutorial is @sign?
+Where in the tutorial is at-sign?
 
-What should I call the @sign?
+What should I call the at-sign?
 
-Why should I use the @sign?
+Why should I use the at-sign?
 
-Next, I thought up some sentences related to @sign:
+Next, I thought up some sentences related to at-sign:
 
-I see the @sign in the tutorial when they describe how to write app.component.ts.
+I see the at-sign in the tutorial when they describe how to write app.component.ts.
 
-The @sign looks important; I should know about it.
+The at-sign looks important; I should know about it.
 
-I should remember the @sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
+I should remember the at-sign as, "Some TypeScript syntax which helps me apply a function to a class as a decorator."
 
 This syntax is discussed at this URL:
 https://angular.io/docs/ts/latest/quickstart.html#component-metadata
 
-I use the @sign to help me tell Angular that a class is an 'Angular Component'.
+I use the at-sign to help me tell Angular that a class is an 'Angular Component'.
 
-The @sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
+The at-sign can be placed in front of a function named 'Component' which has been imported from angular2/core.
 
 Once I do that, I can call @Component() with some metadata as a parameter to create an 'Angular Component'.
 
 This metadata is a simple JS-object which contains a CSS-selector and a thing called a template which I see as some HTML-syntax.
 
-Here is a code snippet related to the @sign:
-```
+Here is a code snippet related to the at-sign:
+```javascript
 import {Component} from 'angular2/core';
 @Component({
     selector: 'my-app',
@@ -266,7 +266,7 @@ import {Component} from 'angular2/core';
 })
 ```
 
-So, I just demostrated how I route-memorize the idea behind the Angular2 \@sign.
+So, I just demostrated how I route-memorize the idea behind the Angular2 at-sign.
 
 In the list above I see 77 words I want to memorize.
 
